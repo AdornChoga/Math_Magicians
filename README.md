@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adornchoga.github.io/Leaderboard/)
+[Live Demo Link](https://adornchoga.github.io/Math_Magicians/)
 
 ## Getting Started
 
