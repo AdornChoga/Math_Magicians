@@ -3,7 +3,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-> In this project I setup React toolchains and linters configuration.
+> In this project I:
+ - setup React toolchains and linters configuration.
+ - created the structure and styling of a calculator.
 
 ## Built With
 
