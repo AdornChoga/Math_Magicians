@@ -33,9 +33,27 @@ body {
   background-color: #e0e0e0;
 }
 
+.grid-container button:hover {
+  background-color: #f8f7f7;
+}
+
+.grid-container button:active {
+  background-color: #cecaca;
+}
+
 .grid-container li:nth-child(4n + 1) button,
 .grid-container li:last-child button {
   background-color: #f5913e;
+}
+
+.grid-container li:nth-child(4n + 1) button:hover,
+.grid-container li:last-child button:hover {
+  background-color: #f1af79;
+}
+
+.grid-container li:nth-child(4n + 1) button:active,
+.grid-container li:last-child button:active {
+  background-color: #f77e1b;
 }
 
 #display {
