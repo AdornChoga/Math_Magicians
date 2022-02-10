@@ -39,6 +39,9 @@ class Calculator extends React.Component {
         display.innerHTML += btnName;
       }
     }
+    if (btnName === '+/-' && updatedState.total) {
+      display.innerHTML = updatedState.total;
+    }
     if (Number(btnName) && total && !next && !operation) {
       expression.innerHTML = '';
       display.innerHTML = btnName;
@@ -82,7 +85,7 @@ class Calculator extends React.Component {
         <Button buttonValue="AC" eventHandler={this.handleClicks} />
         <Button buttonValue="+/-" eventHandler={this.handleClicks} />
         <Button buttonValue="%" eventHandler={this.handleClicks} />
-        <Button buttonValue="/" eventHandler={this.handleClicks} />
+        <Button buttonValue="÷" eventHandler={this.handleClicks} />
         <Button buttonValue="7" eventHandler={this.handleClicks} />
         <Button buttonValue="8" eventHandler={this.handleClicks} />
         <Button buttonValue="9" eventHandler={this.handleClicks} />
