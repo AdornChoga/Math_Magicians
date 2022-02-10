@@ -6,6 +6,7 @@
 > In this project I:
  - setup React toolchains and linters configuration.
  - created the structure and styling of a calculator.
+ - Added the logic and click events of the calculator
 
 ## Built With
 
