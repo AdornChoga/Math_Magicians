@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+![Calculator](./demo/calculator.gif)
 
 > In this project I:
  - setup React toolchains and linters configuration.

@@ -23,13 +23,11 @@ const Calculator = () => {
         display.innerHTML += btnName;
       }
     }
-    if (Number(btnName) || btnName === '.' || btnName === '+/-') {
+    if (Number(btnName) || btnName === '.' || btnName === '+/-' || btnName === '0') {
       if (!total && !next) {
         display.innerHTML = btnName;
-      } else if (!updatedState.total && !updatedState.operation) {
-        display.innerHTML = updatedState.next;
       } else {
-        display.innerHTML += btnName;
+        display.innerHTML = updatedState.next;
       }
     }
     if (btnName === '+/-' && updatedState.total && !updatedState.next) {
