@@ -11,7 +11,6 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   max-width: 40rem;
   margin: 0 auto;
   padding: 0.5rem;
@@ -62,9 +61,24 @@ body {
   text-align: right;
   color: white;
   font-size: 3rem;
-  padding: 0.9rem 0;
+  height: 7rem;
+  padding-right: 0.5rem;
 }
 
-#zero {
+#expression {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  display: block;
+  font-size: 1.8rem;
+  color: orange;
+}
+
+#number-input {
+  margin-top: 0.2rem;
+  display: block;
+  font-size: 4rem;
+}
+
+.grid-container li:nth-child(18) {
   grid-column: 1/3;
 }
