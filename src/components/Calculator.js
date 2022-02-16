@@ -68,31 +68,35 @@ const Calculator = () => {
     }
   };
   return (
-    <ul className="grid-container">
-      <li id="display">
-        <span id="expression" />
-        <span id="number-input">0</span>
-      </li>
-      <Button buttonValue="AC" eventHandler={handleClicks} />
-      <Button buttonValue="+/-" eventHandler={handleClicks} />
-      <Button buttonValue="%" eventHandler={handleClicks} />
-      <Button buttonValue="÷" eventHandler={handleClicks} />
-      <Button buttonValue="7" eventHandler={handleClicks} />
-      <Button buttonValue="8" eventHandler={handleClicks} />
-      <Button buttonValue="9" eventHandler={handleClicks} />
-      <Button buttonValue="x" eventHandler={handleClicks} />
-      <Button buttonValue="4" eventHandler={handleClicks} />
-      <Button buttonValue="5" eventHandler={handleClicks} />
-      <Button buttonValue="6" eventHandler={handleClicks} />
-      <Button buttonValue="-" eventHandler={handleClicks} />
-      <Button buttonValue="1" eventHandler={handleClicks} />
-      <Button buttonValue="2" eventHandler={handleClicks} />
-      <Button buttonValue="3" eventHandler={handleClicks} />
-      <Button buttonValue="+" eventHandler={handleClicks} />
-      <Button buttonValue="0" eventHandler={handleClicks} />
-      <Button buttonValue="." eventHandler={handleClicks} />
-      <Button buttonValue="=" eventHandler={handleClicks} />
-    </ul>
+    <div className="calc-page-container">
+      <h1>Let &apos;s do some Math!</h1>
+      <ul className="grid-container">
+        <li id="display">
+          <span id="expression" />
+          <span id="number-input">0</span>
+        </li>
+        <Button buttonValue="AC" eventHandler={handleClicks} />
+        <Button buttonValue="+/-" eventHandler={handleClicks} />
+        <Button buttonValue="%" eventHandler={handleClicks} />
+        <Button buttonValue="÷" eventHandler={handleClicks} />
+        <Button buttonValue="7" eventHandler={handleClicks} />
+        <Button buttonValue="8" eventHandler={handleClicks} />
+        <Button buttonValue="9" eventHandler={handleClicks} />
+        <Button buttonValue="x" eventHandler={handleClicks} />
+        <Button buttonValue="4" eventHandler={handleClicks} />
+        <Button buttonValue="5" eventHandler={handleClicks} />
+        <Button buttonValue="6" eventHandler={handleClicks} />
+        <Button buttonValue="-" eventHandler={handleClicks} />
+        <Button buttonValue="1" eventHandler={handleClicks} />
+        <Button buttonValue="2" eventHandler={handleClicks} />
+        <Button buttonValue="3" eventHandler={handleClicks} />
+        <Button buttonValue="+" eventHandler={handleClicks} />
+        <Button buttonValue="0" eventHandler={handleClicks} />
+        <Button buttonValue="." eventHandler={handleClicks} />
+        <Button buttonValue="=" eventHandler={handleClicks} />
+      </ul>
+    </div>
+
   );
 };
 

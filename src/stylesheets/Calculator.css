@@ -8,32 +8,48 @@ body {
   font-family: sans-serif;
 }
 
+.calc-page-container {
+  display: flex;
+  border: solid;
+  padding-top: 5rem;
+  height: 100vh;
+  background-color: rgb(23, 23, 46);
+}
+
+.calc-page-container h1 {
+  padding-left: 5rem;
+  font-size: 3rem;
+  color: white;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 40rem;
-  margin: 0 auto;
-  padding: 0.5rem;
+  width: 50%;
+  margin-inline: auto;
   list-style: none;
+  padding: 5rem;
 }
 
 .grid-container li {
-  border: solid #d7d7d7;
+  border: solid  #eeecec;
   padding: 0;
   text-align: center;
-  font-size: 1.5rem;
 }
 
 .grid-container button {
-  display: inline;
-  padding: 2.2rem 1rem;
+  padding: 2.8rem 1rem;
   border: none;
   width: 100%;
-  background-color: #e0e0e0;
+  height: 100%;
+  background-color: rgb(15, 15, 53);
+  font-size: 2rem;
+  color: white;
+  font-family: sans-serif;
 }
 
 .grid-container button:hover {
-  background-color: #f8f7f7;
+  background-color: #858694;
 }
 
 .grid-container button:active {
@@ -42,7 +58,7 @@ body {
 
 .grid-container li:nth-child(4n + 1) button,
 .grid-container li:last-child button {
-  background-color: #f5913e;
+  background-color: #c27c43;
 }
 
 .grid-container li:nth-child(4n + 1) button:hover,
@@ -61,20 +77,19 @@ body {
   text-align: right;
   color: white;
   font-size: 3rem;
-  height: 7rem;
   padding-right: 0.5rem;
 }
 
 #expression {
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
+  margin: 0.2rem;
   display: block;
+  height: 2rem;
   font-size: 1.8rem;
   color: orange;
 }
 
 #number-input {
-  margin-top: 0.2rem;
+  margin-top: 1rem;
   display: block;
   font-size: 4rem;
 }

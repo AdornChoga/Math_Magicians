@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20rem;
+  background-color: rgb(23, 23, 46);
+}
+
+.quote-container p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  outline: 0.4rem inset #f5913e;
+  padding: 5rem;
+  color: rgb(163, 162, 162);
+  line-height: 3rem;
+}
