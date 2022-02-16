@@ -27,11 +27,7 @@ const HomePage = () => (
       convallis tellus id interdum velit laoreet id donec ultrices. Viverra orci
       sagittis eu volutpat odio facilisis mauris sit amet. Mattis enim ut tellus
       elementum. Convallis convallis tellus id interdum. Mus mauris vitae ultricies
-      leo integer. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin.
-      Tincidunt eget nullam non nisi est sit amet. Arcu dui vivamus arcu felis
-      bibendum ut tristique et. Sed viverra ipsum nunc aliquet. Consequat semper
-      viverra nam libero justo laoreet. Iaculis nunc sed augue lacus viverra vitae
-      congue eu consequat.
+      leo integer.
     </p>
   </div>
 );

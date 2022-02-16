@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { HashRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import View from './View';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Navbar />
+      <View />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );

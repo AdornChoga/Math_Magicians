@@ -1,20 +1,21 @@
 import '../stylesheets/Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const navLinks = [
     {
       id: 1,
-      path: '',
+      path: '/',
       textContent: 'Home',
     },
     {
       id: 2,
-      path: '',
+      path: 'calculator',
       textContent: 'Calculator',
     },
     {
       id: 3,
-      path: '',
+      path: 'quote',
       textContent: 'Quote',
     },
   ];
@@ -23,7 +24,11 @@ const Navbar = () => {
       <h1>Math Magicians</h1>
       <ul>
         {navLinks.map((link) => (
-          <li key={link.id}>{link.textContent}</li>
+          <li key={link.id}>
+            <NavLink to={link.path}>
+              {link.textContent}
+            </NavLink>
+          </li>
         ))}
       </ul>
     </nav>

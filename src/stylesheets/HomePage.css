@@ -12,15 +12,20 @@ body {
 }
 
 .home-page {
-  margin-top: 10rem;
-  margin-inline: 3rem;
+  padding: 10rem 3rem 3rem 3rem;
+  min-height: 100vh;
+  background-color: rgb(23, 23, 46);
 }
 
 .home-page h1 {
   font-size: 4rem;
+  color: white;
 }
 
 .home-page p {
   margin-top: 5rem;
+  padding-left: 3rem;
   font-size: 1.8rem;
+  color: rgb(229, 226, 226);
+  line-height: 2.8rem;
 }

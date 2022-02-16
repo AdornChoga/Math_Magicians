@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(226, 159, 120);
+  background-color: rgb(124, 65, 65);
   padding: 0.8em 2em;
 }
 
@@ -42,10 +42,15 @@ body {
 }
 
 .nav-bar ul li + li {
-  border-left: 0.2rem solid rgb(109, 107, 107);
+  border-left: 0.2rem solid rgb(245, 242, 242);
   padding-left: 1rem;
 }
 
-.nav-bar ul li:hover {
+a {
+  text-decoration: none;
+  color: rgb(13, 13, 82);
+}
+
+a:hover {
   text-decoration: underline white;
 }

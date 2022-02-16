@@ -18,6 +18,7 @@ body {
   align-items: center;
   height: 100vh;
   padding: 0 20rem;
+  background-color: rgb(23, 23, 46);
 }
 
 .quote-container p {
@@ -26,4 +27,6 @@ body {
   font-weight: bold;
   outline: 0.4rem inset #f5913e;
   padding: 5rem;
+  color: rgb(163, 162, 162);
+  line-height: 3rem;
 }
