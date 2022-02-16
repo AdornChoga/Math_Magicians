@@ -4,16 +4,18 @@
 
 ![Calculator](./demo/calculator.gif)
 
-> In this project I:
- - setup React toolchains and linters configuration.
- - created the structure and styling of a calculator.
- - Added the logic and click events of the calculator
+> In this project I created a sinlge page application with all three pages (home,   calculator and quotes) being routed using React routes. The Interactivity of this website is in the navigation bar and calculator with the calculator having about 90% of the site's interactivity. The calculator has the following mathematical:
+ - +, -, x, /, % operations.
+ - AC button for reseting the output display.
+ - . button for decimals values.
+ - -/+ button for negating numbers.
 
 ## Built With
 
 - React
 - JavaScript
 - JSX
+- CSS
 
 ## Live Demo
 
