@@ -1,7 +1,7 @@
-import '../stylesheets/Calculator.css';
+import './Calculator.css';
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
-import Button from './Button';
+import calculate from '../../logic/calculate';
+import Button from '../button/Button';
 
 // eslint-disable-next-line react/prefer-stateless-function
 const Calculator = () => {

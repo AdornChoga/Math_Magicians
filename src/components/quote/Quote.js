@@ -1,4 +1,4 @@
-import '../stylesheets/Quote.css';
+import './Quote.css';
 
 const Quote = () => (
   <div className="quote-container">

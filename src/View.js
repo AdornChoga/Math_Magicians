@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import HomePage from './components/HomePage';
-import Quote from './components/Quote';
+import Calculator from './components/calculator/Calculator';
+import HomePage from './components/homepage/HomePage';
+import Quote from './components/quote/Quote';
 
 const View = () => (
   <Routes>
