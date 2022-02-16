@@ -12,7 +12,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 40rem;
-  margin: 0 auto;
+  margin-inline: auto;
+  margin-top: 10rem;
   padding: 0.5rem;
   list-style: none;
 }
