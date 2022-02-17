@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests button rendering and snapshot matching is button snapshot created 1`] = `
+<li>
+  <button
+    data-testid="minus"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+</li>
+`;
