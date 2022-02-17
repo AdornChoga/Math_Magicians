@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![Calculator](./demo/calculator.gif)
+![Calculator](./demo/math_magicians.gif)
 
-> In this project I created a sinlge page application with all three pages (home,   calculator and quotes) being routed using React routes. The Interactivity of this website is in the navigation bar and calculator with the calculator having about 90% of the site's interactivity. The calculator has the following mathematical:
+> In this project I created a sinlge page application with all three pages (home,   calculator and quotes) being routed using React routes. The Interactivity of this website is in the navigation bar and calculator with the calculator having about 90% of the site's interactivity. The calculator has the following features:
  - +, -, x, /, % operations.
  - AC button for reseting the output display.
  - . button for decimals values.
