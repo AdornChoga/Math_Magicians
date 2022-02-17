@@ -20,7 +20,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="nav-bar">
+    <nav className="nav-bar" data-testid="nav">
       <h1>Math Magicians</h1>
       <ul>
         {navLinks.map((link) => (

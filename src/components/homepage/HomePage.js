@@ -1,7 +1,7 @@
 import './HomePage.css';
 
 const HomePage = () => (
-  <div className="home-page">
+  <div className="home-page" data-testid="homepage-container">
     <h1>Welcome to our page</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit,

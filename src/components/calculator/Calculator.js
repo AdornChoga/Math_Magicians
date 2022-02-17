@@ -1,6 +1,6 @@
 import './Calculator.css';
 import React, { useState } from 'react';
-import calculate from '../../logic/calculate';
+import calculate from '../../logic/calculator/calculate';
 import Button from '../button/Button';
 
 // eslint-disable-next-line react/prefer-stateless-function
@@ -68,32 +68,32 @@ const Calculator = () => {
     }
   };
   return (
-    <div className="calc-page-container">
+    <div className="calc-page-container" data-testid="calc-page-cont">
       <h1>Let &apos;s do some Math!</h1>
       <ul className="grid-container">
         <li id="display">
           <span id="expression" />
           <span id="number-input">0</span>
         </li>
-        <Button buttonValue="AC" eventHandler={handleClicks} />
-        <Button buttonValue="+/-" eventHandler={handleClicks} />
-        <Button buttonValue="%" eventHandler={handleClicks} />
-        <Button buttonValue="÷" eventHandler={handleClicks} />
-        <Button buttonValue="7" eventHandler={handleClicks} />
-        <Button buttonValue="8" eventHandler={handleClicks} />
-        <Button buttonValue="9" eventHandler={handleClicks} />
-        <Button buttonValue="x" eventHandler={handleClicks} />
-        <Button buttonValue="4" eventHandler={handleClicks} />
-        <Button buttonValue="5" eventHandler={handleClicks} />
-        <Button buttonValue="6" eventHandler={handleClicks} />
-        <Button buttonValue="-" eventHandler={handleClicks} />
-        <Button buttonValue="1" eventHandler={handleClicks} />
-        <Button buttonValue="2" eventHandler={handleClicks} />
-        <Button buttonValue="3" eventHandler={handleClicks} />
-        <Button buttonValue="+" eventHandler={handleClicks} />
-        <Button buttonValue="0" eventHandler={handleClicks} />
-        <Button buttonValue="." eventHandler={handleClicks} />
-        <Button buttonValue="=" eventHandler={handleClicks} />
+        <Button buttonValue="AC" eventHandler={handleClicks} id="clear" />
+        <Button buttonValue="+/-" eventHandler={handleClicks} id="negate" />
+        <Button buttonValue="%" eventHandler={handleClicks} id="percent" />
+        <Button buttonValue="÷" eventHandler={handleClicks} id="divide" />
+        <Button buttonValue="7" eventHandler={handleClicks} id="seven" />
+        <Button buttonValue="8" eventHandler={handleClicks} id="eight" />
+        <Button buttonValue="9" eventHandler={handleClicks} id="nine" />
+        <Button buttonValue="x" eventHandler={handleClicks} id="multiply" />
+        <Button buttonValue="4" eventHandler={handleClicks} id="four" />
+        <Button buttonValue="5" eventHandler={handleClicks} id="five" />
+        <Button buttonValue="6" eventHandler={handleClicks} id="six" />
+        <Button buttonValue="-" eventHandler={handleClicks} id="minus" />
+        <Button buttonValue="1" eventHandler={handleClicks} id="one" />
+        <Button buttonValue="2" eventHandler={handleClicks} id="tow" />
+        <Button buttonValue="3" eventHandler={handleClicks} id="three" />
+        <Button buttonValue="+" eventHandler={handleClicks} id="plus" />
+        <Button buttonValue="0" eventHandler={handleClicks} id="zero" />
+        <Button buttonValue="." eventHandler={handleClicks} id="point" />
+        <Button buttonValue="=" eventHandler={handleClicks} id="equal" />
       </ul>
     </div>
 
