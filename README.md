@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adornchoga.github.io/Math_Magicians/)
+[View Live on Heroku](https://math-magician-s.herokuapp.com/)
 
 ## Getting Started
 
